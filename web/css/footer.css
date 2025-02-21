@@ -1,0 +1,21 @@
+footer {
+    background-color: black;
+    color: gray;
+
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    display: flex;
+    align-items: center;
+}
+
+footer p img {
+    width: 30px;
+    height: 30px;
+    margin-right: 1em;
+    border-radius: 25%;
+}

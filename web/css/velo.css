@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+.logo-titre {
+    display: flex;
+    align-items: center;
+}
+
+.logovelo {
+    width: 60px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px;
+    /* Largeur de la barre latérale */
+    padding: 10px;
+    position: top;
+    margin-bottom: 400px;
+}
+
+.profile-summary {
+    border: 1px solid #000;
+    /* Bordure autour du résumé du profil */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+}
+
+.autre-truc {
+    border: 1px solid #000;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: aliceblue;
+    height: 140%;
+    margin-top: 10px;
+}
+
+.commu {
+    justify-content: center;
+    width: 79%;
+    border: 1px solid black;
+    align-items: center;
+    margin-top: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.logo p {
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

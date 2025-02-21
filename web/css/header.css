@@ -1,0 +1,64 @@
+.logo-titre {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.logovelo {
+    width: 60px;
+}
+
+.logo_profile {
+    width: 40px;
+}
+
+.title {
+    font-family: "Palatino Linotype", "Book Antiqua", "Palatino", serif;
+    font-variant: small-caps;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    margin-left: auto;
+}
+
+.nav-container a {
+    margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .logo-titre {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-container a {
+        margin: 5px 0;
+    }
+
+    .logovelo {
+        margin-bottom: 10px;
+    }
+
+    header {
+        padding: 10px;
+    }
+}

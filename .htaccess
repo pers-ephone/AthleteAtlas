@@ -1,0 +1,9 @@
+# Activer le module de réécriture
+RewriteEngine On
+# Définir la base de la réécriture à la racine du domaine
+RewriteBase /
+
+# La régle de reécriture s'applique que si que si l'URL demandée ne commence pas par /web
+RewriteCond %{REQUEST_URI} !^/web
+# Reécrire toutes les URL pour qu'elle commence par /web [L] signifie de stopper le process de réérciture une fois la régle appliqué 
+RewriteRule ^(.*)$ /web/$1 [L]

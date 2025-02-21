@@ -1,0 +1,112 @@
+/* Styles pour garantir que la page prend toute la hauteur */
+html,
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    /* Supprime les marges par défaut */
+    padding: 0;
+    /* Supprime les paddings par défaut */
+}
+
+/* Permet au body de se comporter comme un conteneur flexible */
+body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Main prend l'espace disponible restant */
+main {
+    flex: 1;
+}
+
+/* Centrage et marges pour les éléments .choose, .row1, .row2, etc. */
+.choose {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.sports-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 0% 6%;
+    flex-wrap: wrap;
+}
+
+.sport {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin: 1% 8%;
+}
+
+.sport img {
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+}
+
+.sport p {
+    background-color: rgba(0, 0, 255, 0.4);
+    /* blue with transparency */
+    transition: background-color 0.4s ease;
+    color: white;
+    margin: 0;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    width: 250px;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.sport:hover p {
+    background-color: rgba(0, 0, 255, 1);
+    /* opaque blue on hover */
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.logo img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.logo p {
+    display: flex;
+    align-items: center;
+    height: 10px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.alert-warning {
+    color: red;
+}
